@@ -45,7 +45,7 @@ The dataset is preprocessed to work directly with PyTorch’s `ImageFolder` form
 │
 ├── README.md
 ├── LICENSE
-
+```
 ## 📊 Evaluation Metrics
 
 ### **Classification Performance**
