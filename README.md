@@ -1,73 +1,47 @@
-🚀 Open in Google Colab <a name="open-in-colab-section"></a>
-Training Notebooks
-Simple CycleGAN
+# 🩺 Medical Image Translation & Evaluation using CycleGAN Variants
 
-TL-S-CycleGAN (ResNet-50)
-
-TL-S-CycleGAN (VGG-16)
-
-Testing Notebooks
-Testing Simple CycleGAN
-
-Testing TL-S-CycleGAN (ResNet-50)
-
-Testing TL-S-CycleGAN (VGG-16)
-
-Metrics & Visuals
-Classification Metrics & FCN Visuals
-
-Image Quality Metrics & Visuals
-
-📈 Evaluation Metrics
-FCN Metrics
-Intersection over Union (IoU)
-
-Pixel Classification Accuracy (PCA)
-
-Per-Pixel Accuracy (PPA)
-
-Image Quality Metrics
-SSIM (Structural Similarity Index Measure)
-
-PSNR (Peak Signal-to-Noise Ratio)
-
-MSE (Mean Squared Error)
-
-📝 Citation
-If you use this work in your research, please cite:
-
-bibtex
-Copy
-Edit
-@article{your_paper,
-  title={Medical Image Translation with CycleGAN Variants},
-  author={Your Name},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2025}
-}
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-yaml
-Copy
-Edit
+[![Made with Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
+[![Framework](https://img.shields.io/badge/PyTorch-2.x-red?logo=pytorch)](https://pytorch.org/)
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/your-dataset-link)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
-Now you just need to **replace**:
-- `YOUR_KAGGLE_DATASET_LINK` → actual Kaggle dataset link  
-- `COLAB_LINK_*` → actual Google Colab links for each `.ipynb`  
+## 📌 Overview
+
+This repository contains the complete implementation of my **thesis research** on *Benign vs Malignant Medical Image Translation* using three variants of **CycleGAN**:
+
+1. **Simple CycleGAN**
+2. **Transfer Learning Simplified CycleGAN (TL-S-CycleGAN) with ResNet-50 Discriminator**
+3. **TL-S-CycleGAN with VGG-16 Discriminator**
+
+The project focuses on **synthetic medical image generation** and **comparative evaluation** using both classification and image quality metrics.
 
 ---
 
-If you want, I can also **add a more humanized one-paragraph summary of your thesis** in the “Overview” section so it reads less like a technical report and more like a portfolio-friendly repo intro.  
-Do you want me to add that?
+## 📂 Dataset
 
+We use the **[Kaggle Medical Image Dataset](https://www.kaggle.com/your-dataset-link)** containing benign and malignant medical images.  
+The dataset is preprocessed to work directly with PyTorch’s `ImageFolder` format.
 
+---
 
+## 📁 Folder Structure
 
-
-
-
-
-Ask ChatGPT
+```plaintext
+├── 📁 training/
+│   ├── simple_cyclegan.ipynb
+│   ├── tls_cyclegan_resnet50.ipynb
+│   ├── tls_cyclegan_vgg16.ipynb
+│
+├── 📁 testing/
+│   ├── test_simple_cyclegan.ipynb
+│   ├── test_tls_cyclegan_resnet50.ipynb
+│   ├── test_tls_cyclegan_vgg16.ipynb
+│
+├── 📁 metrics/
+│   ├── classification_metrics_fcn_visuals.ipynb
+│   ├── image_quality_metrics_comparison.ipynb
+│
+├── README.md
+├── LICENSE
