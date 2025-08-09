@@ -1,70 +1,73 @@
-# Machine-Learning
-# House Price Prediction using Linear Regression
+🚀 Open in Google Colab <a name="open-in-colab-section"></a>
+Training Notebooks
+Simple CycleGAN
 
-This project is a beginner-friendly implementation of a **Linear Regression model** to predict house prices based on different features like area, neighborhood, overall quality, and more.
+TL-S-CycleGAN (ResNet-50)
 
-It’s part of my machine learning journey — learning by doing real-world projects on real data.
+TL-S-CycleGAN (VGG-16)
 
-----------------------------------------------------------------------------------------
+Testing Notebooks
+Testing Simple CycleGAN
 
-## What's Inside
+Testing TL-S-CycleGAN (ResNet-50)
 
-- `house_prediction.ipynb` — the full notebook with code, explanations, and results  
-- `train.csv` and `test.csv` — the dataset used for training and testing  
-- `output/visualizations/` — saved charts that helped explore the data  
-- `output/model.pkl` — trained regression model  
-- `requirements.txt` — dependencies used in the notebook  
-- `README.md` — you're reading it!
+Testing TL-S-CycleGAN (VGG-16)
 
-----------------------------------------------------------------------------------------
+Metrics & Visuals
+Classification Metrics & FCN Visuals
 
-## Project Overview
+Image Quality Metrics & Visuals
 
-This project uses the **Ames Housing dataset** (similar to the famous Kaggle House Prices competition). The goal is to train a regression model that can estimate house sale prices using various numerical and categorical features.
+📈 Evaluation Metrics
+FCN Metrics
+Intersection over Union (IoU)
 
-----------------------------------------------------------------------------------------
+Pixel Classification Accuracy (PCA)
 
-## 🔍 What I Did
+Per-Pixel Accuracy (PPA)
 
-- Cleaned and explored the data (EDA)
-- Visualized patterns and correlations
-- Built a **Linear Regression model using scikit-learn**
-- Evaluated its performance using real metrics
-- Saved the model and results for reuse
+Image Quality Metrics
+SSIM (Structural Similarity Index Measure)
 
-----------------------------------------------------------------------------------------
+PSNR (Peak Signal-to-Noise Ratio)
 
-## 📊 Model Performance
+MSE (Mean Squared Error)
 
-After training, here's how well the model performed on the test set:
+📝 Citation
+If you use this work in your research, please cite:
 
-- **Mean Absolute Error (MAE):** \$13,460  
-- **Root Mean Squared Error (RMSE):** \$20,956  
-- **R² Score:** 0.9304
+bibtex
+Copy
+Edit
+@article{your_paper,
+  title={Medical Image Translation with CycleGAN Variants},
+  author={Your Name},
+  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  year={2025}
+}
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-That means the model can explain over **93% of the variation** in house prices — not bad for a simple linear model!
+yaml
+Copy
+Edit
 
-----------------------------------------------------------------------------------------
+---
 
-## 🖼️ Visualizations
+Now you just need to **replace**:
+- `YOUR_KAGGLE_DATASET_LINK` → actual Kaggle dataset link  
+- `COLAB_LINK_*` → actual Google Colab links for each `.ipynb`  
 
-I created a few visual plots to better understand the data, such as:
+---
 
-- **Distribution of Sale Prices**
-- **Average House Price by Neighborhood**
-- **Correlation Heatmap**
+If you want, I can also **add a more humanized one-paragraph summary of your thesis** in the “Overview” section so it reads less like a technical report and more like a portfolio-friendly repo intro.  
+Do you want me to add that?
 
-📁 You can find them in the [`output/visualizations/`](output/visualizations) folder.
 
--------------------------------------------------------------------------------------
 
-## 📦 Requirements
 
-To run this project locally, make sure you have the following Python packages installed:
 
-```txt
-pandas==1.5.3
-numpy==1.24.3
-matplotlib==3.7.1
-seaborn==0.12.2
-scikit-learn==1.2.2
+
+
+
+Ask ChatGPT
