@@ -45,3 +45,30 @@ The dataset is preprocessed to work directly with PyTorch’s `ImageFolder` form
 │
 ├── README.md
 ├── LICENSE
+
+## 📊 Evaluation Metrics
+
+### **Classification Performance**
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+
+### **Fully Convolutional Network (FCN) Metrics**
+- **IoU (Intersection over Union)**
+- **PCA (Pixel Classification Accuracy)**
+- **PPA (Pixel Precision Accuracy)**
+
+### **Image Quality Metrics**
+- **SSIM (Structural Similarity Index Measure)**
+- **PSNR (Peak Signal-to-Noise Ratio)**
+- **MSE (Mean Squared Error)**
+
+---
+
+## 💡 Key Insights
+- **TL-S-CycleGAN** models outperform the simple CycleGAN in **image quality** and **classification metrics**.
+- **VGG-16 based discriminator** excels in preserving fine textures.
+- **ResNet-50 based discriminator** offers a good balance between generation and classification performance.
+- The evaluation pipeline ensures **both qualitative and quantitative** comparison between models.
+
